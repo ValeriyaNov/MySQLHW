@@ -17,9 +17,8 @@ FROM customers
 WHERE cname LIKE 'G%';
 
 USE workshem;
-SELECT *
-FROM orderss
-WHERE amt = MIN(amt);
+SELECT MIN(amt)
+FROM orderss;
 
 
 
